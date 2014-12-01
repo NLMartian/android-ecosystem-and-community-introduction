@@ -702,14 +702,51 @@ a:focus {
     for you.
 */
 
+.content-title {
+  text-align:center;
+  color: #6AE400;
+  margin-top: 110px;
+  font-size: 66px;
+}
+
+.content-body {
+
+}
+
 #first-img {
   background-image: url("../img/betogether.png");
-  width: 1000px;
-  height: 334px;
+  width: 900px;
+  height: 300px;
   margin: 0 auto;
 }
 
-#first p {
-  max-width: 1000px;
-  margin: 0 auto;
+#first-img p {
+  color: #6AE400;
+  padding-top: 20px;
+  font-size: 56px;
 }
+
+#second .content-title {
+    
+}
+#second ul {
+    font-size: 36px;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+#second ul li {
+    margin-bottom: 40px;    
+}
+
+#second a {
+    color: #fff;
+    text-shadow: 0px 0px 0px;
+}
+
+#second a:hover {
+    color: #000;
+    text-shadow: -1px -1px 2px rgba(100,100,100,0.9)
+}
+
+
