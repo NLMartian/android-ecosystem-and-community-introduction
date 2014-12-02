@@ -710,7 +710,11 @@ a:focus {
 }
 
 .content-body {
-
+  text-align: center;
+  font-size: 48px;
+  color: #000000;
+  margin-top: 100px;
+  line-height: 1.4;
 }
 
 #first-img {
@@ -726,27 +730,73 @@ a:focus {
   font-size: 56px;
 }
 
-#second .content-title {
-    
+#konwledge-network .content-title {
+
 }
-#second ul {
+#konwledge-network ul, #famous-people ul, #famous-blog ul #practise-more ul {
     font-size: 36px;
     margin-top: 90px;
     margin-left: 150px;
 }
 
-#second ul li {
-    margin-bottom: 40px;    
+#konwledge-network ul li {
+    margin-bottom: 40px;
 }
 
-#second a {
+#konwledge-network a {
     color: #fff;
     text-shadow: 0px 0px 0px;
 }
 
-#second a:hover {
+#konwledge-network a:hover {
     color: #000;
     text-shadow: -1px -1px 2px rgba(100,100,100,0.9)
 }
 
+#famous-people div {
+    width: 550px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+#famous-people div span {
+    margin-right: 20px;
+}
+
+#famous-people img {
+    width: 50px;
+    height: 50px;
+}
+
+#famous-blog ul {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#famous-blog ul a {
+    line-height: 1.6;
+}
+
+#practise-more ul {
+    margin-top: 160px;
+    text-align: center;
+}
+
+#practise-more li {
+    margin-top: 40px;
+}
+
+.gh-logo {
+    width: 300px;
+    height: 200px;
+}
+
+#reference-project ul {
+    margin-top: 160px;
+}
+
+#reference-project ul li{
+    text-align: center;
+    margin-top: 30px;
+}
 
